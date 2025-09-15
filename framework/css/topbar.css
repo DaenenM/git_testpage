@@ -1,0 +1,69 @@
+
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: rgb(14, 13, 13);
+            }
+            .topbar {
+                background-color: rgb(50, 57, 63);
+                padding:  10px;
+                display: flex;
+                justify-content:  space-between; /* Center search bar */
+                align-items: center;
+                position: fixed;  /* fixes topbar on the screen */
+                top: 0;           /* stick to top */
+                left: 0;          /* align with left edge */
+                width: 99%;      /* span full width */
+                z-index: 1000;    /* appear above other content */
+            }
+            .left-group {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            .topbar h1 {
+                color: white;
+                margin: 0;
+                font-size: 20px;
+            }
+            .nav-links {
+                display: flex;
+                gap: 15px;
+            }
+            .nav-links a {
+                text-decoration: none;
+                color: white;
+                background: #4b4b4b;
+                padding: 3px 6px;
+                border-radius: 5px;
+                transition: background 0.3s;
+            }
+            .nav-links a:hover {
+                background: #ff0000;
+            }
+            .search-box {
+                display: flex;
+                text-decoration: none;
+                background: #2e2e2e;
+            }
+            .search-box input[type="text"] {
+                padding: 8px;
+                width: 300px;
+                border: none;
+                border-radius: 5px 0 0 5px;
+            }
+            .search-box button {
+                padding: 8px 15px;
+                border: none;
+                background: #fff;
+                color: #6a0dad;
+                cursor: pointer;
+                border-radius: 0 5px 5px 0;
+                transition: 0.3s; /* smooth hover effect */
+            }
+            .search-box button:hover {
+                background: #5a5a5a; /* optional: slightly darker background */
+                color: lime; /* text color changes on hover */
+                box-shadow: 0 0 5px lime, 0 0 10px lime, 0 0 20px lime; /* glowing effect */
+                transition: 0.3s; /* smooth transition */
+            }

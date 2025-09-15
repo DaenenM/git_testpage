@@ -1,0 +1,20 @@
+.header-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 0 0px;
+    color: rgb(34, 78, 108);
+}
+.header-p {
+    font-size: 20px;
+    color: lightgray;
+    text-align: center;
+}
+.site-header {
+    display: flex;                      /* arrange children in a row */
+    justify-content: space-between;     /* push text left, image right */
+    align-items: center;                /* vertically center items */
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: slategray;
+}
